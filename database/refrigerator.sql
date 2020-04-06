@@ -16,7 +16,8 @@ INSERT INTO products(id,name,size) VALUES
     (7,'Tomato',8),
     (8,'Oatmeal',3),
     (9,'Flour',2),
-    (10,'Sugar',1);
+    (10,'Sugar',1),
+    (11,'chocolate',2);
 
 # Link storage id and grocery id.
 INSERT INTO storage_product(storage_id,product_id) VALUES
@@ -29,4 +30,5 @@ INSERT INTO storage_product(storage_id,product_id) VALUES
     (1,7),
     (1,8),
     (1,9),
-    (1,10);
+    (1,10),
+    (1,11);
